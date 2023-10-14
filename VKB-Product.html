@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>VKeyboard/Products</title>
+		<link rel="stylesheet" href="VKB.css">
+		<link rel="stylesheet" href="VKB-Product.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/aaf09631d6.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Roboto:wght@500&family=Young+Serif&display=swap" rel="stylesheet">
+		<link rel="shorcut icon" type="x-icon" href="logo.png">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	</head>
+    <body>
+        <!--ULTILITY SECTOR-->
+		<div class="utility-sector">
+			<div class="brand" style="display: inline-block;">
+				<a href="VKB.html"><img class="logo-brand" src="homepage pic/logo.png" style="display:inline-block"></a> 
+			</div>
+			<div class="user-access" style="display: inline-block;">
+				<div class="access" style="display: inline-block;">
+                    <label for="search">
+					    <a><i  class="fa-solid fa-magnifying-glass fa-xl" style="color: #283f67;"></i></a>
+                    </label>
+                    
+					<a><i class="fa-brands fa-discord fa-xl" style="color: #283f67;"></i></a>
+
+                    <label for="shopping-cart">
+					    <a><i class="fa-solid fa-cart-shopping fa-xl" style="color: #283f67;"></i></a>
+                    </label>
+                    <label for="user">
+
+					    <a><i class="fa-solid fa-circle-user fa-xl" style="color: #283f67;"></i></a>
+                    </label>
+				</div>
+			</div>
+		</div>
+		<input class="search-toggle" type="checkbox" id="search">
+		<div class="all-search-bar">
+			<input type="text" placeholder="Search your items">
+		</div>
+
+        <input class="cart-toggle" type="checkbox" id="shopping-cart">
+        <div class="shopping-cart">
+            <h2 style="font-family: Gabarito; color: #283f67;"> Your Shopping Cart</h2>
+            <p style="font-family: Roboto; color: #283f67;">You don't have any items in your cart yet.<a href="VKB-Product.html" style="text-decoration: none;"><span >Continue shopping.</span></a></p>
+        </div>
+        <input class="user-toggle" type="checkbox" id="user">
+        <div class="user-box">
+            <div class="head-user-box">
+                <i class="fa-solid fa-circle-user fa-4x" style="color: #283f67;"></i>
+                <h1>Guess</h1>
+            </div>
+            <li>
+                <a href=""><i class="fa-solid fa-address-card fa-xl" style="color: #283f67;"></i> Your Account</a>
+                <a href=""><i class="fa-solid fa-right-to-bracket fa-xl" style="color: #283f67;"></i> Login</a>
+                <a href=""><i class="fa-solid fa-gear fa-xl" style="color: #283f67;"></i> Settings</a>
+            </li>
+        </div>    
+		<nav class="navbar">
+			<div class="feature-sector">
+				<ul>
+					<li><a href="VKB.html" class="feature">HOME </a></li>
+					<li><a href="VKB-Product.html" class="feature">PRODUCT </a></li>
+					<li><a href="VKB.html#best-selling-sector" class="feature">PRODUCT UPDATES </a></li> 
+					<li><a href="VKB-Doccument.html" class="feature">DOCUMENTS </a></li>
+					<li><a href="VKB-Help.html" class="feature">HELP </a></li>
+				</ul>
+			</div>
+		</nav>
+		<!--PRODUCT SECTOR-->
+		<div class="product-search-bar">
+			<form class="search-bar">
+				<input type="text" placeholder="Search your items">
+				<button class="Find-button" type="submit"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #283f67; cursor: pointer;"></i></button>
+			</form>
+
+		</div>
+		<div class="button-scroller">
+			<a href="#Kits" style="text-decoration: none; list-style: none;"><button>Kits <i class="fa-solid fa-keyboard fa-xl" style="color: #283f67;"></i></button></a>
+			<a href="#Switches" style="text-decoration: none; list-style: none;"><button>Switches <i class="fa-solid fa-notes-medical fa-xl" style="color: #283f57;"></i></button></a>
+			<!-- <a><button>Stabilizer <i class="fa-solid fa-pallet fa-xl" style="color: #283f67;"></i></button></a> -->
+			<a href="#Keycaps" style="text-decoration: none; list-style: none;"><button>Keycaps <i class="fa-solid fa-land-mine-on fa-xl" style="color: #283f67;"></i></button></a>
+			<a href="#Miscellaneous" style="text-decoration: none; list-style: none;"><button>Miscellaneous <i class="fa-solid fa-toolbox fa-xl" style="color: #283f67;"></i></button></a>
+		</div>
+		<label class="Products">
+			<div>
+				<h1 class="Kits" id="Kits">Kits</h1>
+				<form class="kit-catergory">
+					<input type="text" list="kit-brands" placeholder="Brands">
+					<datalist id="kit-brands">
+						<option value="Akko"></option>
+						<option value="Meletrix"></option>
+						<option value="Crosshair"></option>
+						<option value="Fuheln"></option>
+						<option value="Others"></option>
+					</datalist>
+					<input type="text" list="layout" placeholder="layout">
+					<datalist id="layout">
+						<option value="100%"></option>
+						<option value="87%"></option>
+						<option value="75%"></option>
+						<option value="65%"></option>
+					</datalist>
+						
+					<ul>
+						<li></li>
+					</ul>
+				</form>
+			</div>
+			<div>
+				<h1 class="Switches" id="Switches">Switches</h1>
+				<form class="switch-catergory">
+					<input type="text" list="switch-brands" placeholder="Brands">
+					<datalist id="switch-brands">
+						<option value="Akko"></option>
+						<option value="Gateron"></option>
+						<option>Cherry</option>
+						<option>Kailhs</option>
+						<option>Others</option>
+					</datalist>
+					<input type="text" list="switch-type" placeholder="Types">
+					<datalist id="switch-type">
+						<option value="Linear"></option>
+						<option value="Tactile"></option>
+						<option value="Clicky"></option>
+					</datalist>
+					<ul>
+						<li></li>
+					</ul>
+				</form>
+			</div>
+			<div>
+				<h1 class="Keycaps" id="Keycaps">Keycaps</h1>
+				<form class="keycap-catergory">
+					<input type="text" list="keycap-types" placeholder="Types">
+					<datalist id="keycap-types">
+						<option>SA</option>
+						<option>OEM</option>
+						<option>CHERRY</option>
+						<option>XDA</option>
+						<option>DSA</option>
+					</datalist>
+					<ul>
+						<li></li>
+					</ul>
+				</form>
+			</div>
+			<div>
+				<h1 class="Miscellaneous" id="Miscellaneous">Miscellaneous</h1>
+				<form class="other-tools">
+					<input type="text" list="mod-tools" placeholder="Mod Tools">
+					<datalist id="mod-tools">
+						<option value="Lube"></option>
+						<option value="Keycap puller and Switches"></option>
+						<option value="Foam"></option>
+						<option value="Stabilizer"></option>
+						<option value="Tape mod"></option>
+					</datalist>					
+					<ul>
+						<li></li>
+					</ul>
+				</form>
+			</div>
+		</label>
+        <!--CONTACT SECTOR-->
+		<div class="contact-container">
+			<div><h1 class="contact-sector ">Contact Us</h1>
+				<div class="contacts">
+					<p><strong>Email:</strong> Vkeyboard@gmail.com</p>
+					<p><strong>Phone:</strong> 097xxxxxxxx</p>
+					<p><strong>Discord:</strong> VKeyboard Community </p>
+				</div>
+			</div>
+			<div>
+				<h1 class="other-platform-sector"><strong>Other Platforms</strong></h1>
+			<div class="flatforms">
+				<a><i class="fa-brands fa-facebook fa-2xl" style="color: #283f67;"></i></a>
+				<a><i class="fa-brands fa-youtube fa-2xl" style="color: #283f67;"></i></a>
+				<a><i class="fa-brands fa-twitter fa-2xl" style="color: #283f67;"></i></a>
+				<a><i class="fa-brands fa-instagram fa-2xl" style="color: #283f67;"></i></a>
+			</div>
+			</div>
+		</div>
+    </body>
+</html>

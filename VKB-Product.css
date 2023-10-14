@@ -1,0 +1,83 @@
+.product-search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top:30px;
+}
+.product-search-bar form{
+    width: 470px;
+    border-radius: 10px;
+    border: 2px solid #283f67;
+}
+.product-search-bar input{
+    width: 400px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    margin-left: 8px;
+    font-size: 15px;
+}
+.product-search-bar button{
+    width: 54px;
+    height: 35px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    background-color:rgb(249, 248, 246);
+    padding: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.2s;
+}
+.product-search-bar button:active{
+    opacity: 0.5;
+}
+.button-scroller{
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+    transform: translateX(-120px);
+}
+.button-scroller button{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    transition:all  0.3s;
+    background-color:white;
+    border:solid 1px #283f67;
+    border-radius: 2px;
+    color:#283f67;
+    text-align: start;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Gabarito;
+    cursor: pointer;
+    padding-left: 10px;
+    z-index: 2;
+}
+.button-scroller button:hover{
+    transform: translateX(110px);
+}
+label div{
+    z-index: -1;
+
+}
+label h1{
+    font-family: Gabarito;
+    color: #283f67;
+    padding-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+label form{
+    background-color: #c0c2c727;
+    width:95%;
+    height: 650px;
+    margin: auto;
+}
+label li{
+    text-decoration: none;
+    list-style: none;
+}

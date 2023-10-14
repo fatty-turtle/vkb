@@ -1,0 +1,50 @@
+.policy-container{
+    margin-top: 30px;
+}
+.policy-container label{
+    font-size: 25px;
+    font-family: Gabarito;
+    color: #0f1827;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    display: block;
+    border: 1px solid #283f67;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.142);
+    margin-bottom: 1px;
+
+}
+.policy-container input{
+    display: none;
+}
+.policy-1{
+    font-family: Roboto;
+    color: #283f67;
+}
+.policy-info{
+    width: 80%;
+    margin-left: 30px;
+    position: absolute;
+    top: -700%;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.policy-container h3{
+    margin-bottom: 0;
+}
+.policy-container p{
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.policy-1 input:checked ~ .policy-info{
+
+    position: relative;
+}
+.policy-2{
+    font-family: Roboto;
+    color: #283f67;
+}
+.policy-2 input:checked ~ .policy-info{
+
+    position: relative;
+}
